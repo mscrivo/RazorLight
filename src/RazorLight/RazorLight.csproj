@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
@@ -6,11 +6,14 @@
   <PropertyGroup>
     <PackageId>RazorLight</PackageId>
     <Title>RazorLight</Title>
-    <Version>2.0.0-beta1</Version>
-    <Description>Use Razor to build your templates from strings / files / EmbeddedResources outside of ASP.NET MVC for .NET Core</Description>
+    <Version>2.0.0-beta1.4</Version>
+    <Description>Use Razor to build your templates from strings / files / EmbeddedResources outside of ASP.NET MVC for .NET Core.
+
+NOTE: This is a fork of https://github.com/toddams/RazorLight and will likely disppear once that repo publishes a new release.</Description>
     <Authors>toddams</Authors>
     <PackageTags>RazorLight, razor, render, dotnet-core, dotnet, core, template-engine, email, emails</PackageTags>
-    <RepositoryUrl>https://github.com/toddams/RazorLight</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mscrivo/RazorLight</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <ItemGroup>
