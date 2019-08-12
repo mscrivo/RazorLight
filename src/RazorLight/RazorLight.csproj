@@ -4,7 +4,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>RazorLight</PackageId>
+    <PackageId>RazorLight.Unofficial</PackageId>
     <Title>RazorLight</Title>
     <Version>2.0.0-beta1.4</Version>
     <Description>Use Razor to build your templates from strings / files / EmbeddedResources outside of ASP.NET MVC for .NET Core.
